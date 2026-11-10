@@ -1,6 +1,6 @@
 // Service worker: guarda os arquivos do app no aparelho para abrir sem internet.
 // Os dados do usuário não passam por aqui; ficam no IndexedDB.
-const VERSAO = '0.1.3-mwakua8m';
+const VERSAO = '0.1.4-mwaok81o';
 const CACHE = `financas-${VERSAO}`;
 const ARQUIVOS = ['./', 'index.html', 'app.js', 'styles.css', 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
