@@ -2,7 +2,7 @@
 // Os dados do usuário não passam por aqui; ficam no IndexedDB.
 // Cada versão publica app.js e styles.css com a versão no endereço (?v=...), então uma
 // versão nova nunca reaproveita o arquivo antigo.
-const VERSAO = '0.7.4-mwgg8l7r';
+const VERSAO = '0.8.0-mwggqj9l';
 const CACHE = `financas-${VERSAO}`;
 const ARQUIVOS = ['./', 'index.html', `app.js?v=${VERSAO}`, `styles.css?v=${VERSAO}`, 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
